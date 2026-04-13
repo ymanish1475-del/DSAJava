@@ -18,7 +18,7 @@
 public class CountTheValue {
     static int counter(int arr[],int a,int i){
         if(i==arr.length)return false;
-        int count = (arr[i]==a)return true;
+        boolean count = (arr[i]==a)return true;
         return count + counter(arr,i+1,a);
 
     }
