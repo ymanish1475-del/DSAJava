@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Fibonacci {
 
     static int fibonacci(int n){
@@ -13,7 +15,10 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         // int i=0;
-        int n=6;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter n = ");
+        int n=sc.nextInt();
+        // int n=16;
         System.out.println(fibonacci(n));
         
     }
