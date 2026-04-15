@@ -7,6 +7,7 @@ public class PathInGrid {
             System.out.println(str);
             return;
         }
+        
         if(n>1) path(str+"D",n-1,m);
         if(m>1) path(str+"R",n,m-1);
 
