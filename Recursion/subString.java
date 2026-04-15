@@ -1,3 +1,6 @@
+
+// DOES NOT WORK
+
 public class subString {
 
     static void subst(String s ,String up){
