@@ -7,23 +7,25 @@ public class powerTwo {
         }
 
         k++;
-        System.out.println(k);
+        // System.out.println(k);
         
-        
+        int power = 2*powerTwo(n-1,k);
 
-        return 2*powerTwo(n-1,k);
+        return power;
+        
 
 
         
     }
     public static void main(String[] args) {
-        int n=7;
+        int n=10;
         int k=0;
 
         
-        System.out.println(powerTwo(n,k));
+        // System.out.println(powerTwo(n,k));
+        int p=powerTwo(n, k);
 
-        if(k%2==0){
+        if(p%2==0){
             System.out.println(true);
         }else{
             System.out.println(false);
